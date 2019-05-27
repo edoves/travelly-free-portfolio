@@ -1,0 +1,15 @@
+.destination {
+    background-color: var(--bg-color-primary);
+    padding: 8rem 0;
+    &__card {
+        position: relative;
+    }
+    span {
+        position: absolute;
+        right: 14px;
+        bottom: 7px;
+        color: #fff;            
+    }
+
+    
+}

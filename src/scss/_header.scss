@@ -1,0 +1,64 @@
+.header {
+    background-image: url(../img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+    position: relative;
+    font-size: 1.6rem; 
+
+    &__hero-box {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+
+            .heading-primary {
+                color:#fff;
+                font-size: 5rem;
+            }
+    }   
+  
+}
+
+form {
+    display: flex;
+    justify-content: center;
+
+   .search__input {
+        font-size: 1.6rem;
+        height: 40px;
+        width: 400px;
+        border: none;
+        display: block;
+        // padding: 0 19rem 0 1rem;
+        margin-right: -3.25rem;
+
+        @media only screen and (max-width: $bp-medium) {
+            width: 300px;
+        }
+
+        @media only screen and (max-width: $bp-500px) {
+            width: 250px;
+        }
+
+        @media only screen and (max-width: $bp-small) {
+            width: 200px;
+        }
+
+   }
+
+   .search__button {
+        font-size: 1.6rem;
+        height: 40px;
+        padding: 0 5rem;
+        margin-left: -1rem;
+        border-radius: 0;
+        border: none;   
+        background-color: var(--button-color);
+
+        @media only screen and (max-width: $bp-small) {
+            padding: 0 3rem;
+        }
+   }
+}

@@ -1,0 +1,23 @@
+// custom property
+:root {
+
+    --bg-color-primary: #eee;
+    --button-color: #fd4f32;
+
+ 
+
+    
+    
+}
+
+
+   // variable setup for media query
+$bp-largest: 75em; // 1200px/16px = 75
+$bp-larger: 16em; // 1024px/ 56.25 = 68.75
+$bp-large: 48em; // 768/16 = 48
+$bp-500px: 31.25em;
+$bp-medium: 26.56em;  //425/16px = 25.75
+$bp-small: 23.4375em; // 375px/16px = 37.5
+
+
+$bp-991-overide: 61.9375em;

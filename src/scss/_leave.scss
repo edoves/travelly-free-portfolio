@@ -1,0 +1,54 @@
+.leave {
+    padding: 4rem 0;
+
+    &__title {
+        font-size: 5rem;
+    }
+
+    h4 {
+        font-weight: bold;
+    }
+
+    form {
+        .email__input {
+            font-size: 1.6rem;
+            height: 40px;
+            width: 400px;
+            border: none;
+            display: block;
+            background-color: var(--bg-color-primary);
+            margin-right: -3.25rem;
+
+            @media only screen and (max-width: $bp-large) {
+                width: 300px;
+            }
+
+            @media only screen and (max-width: $bp-500px) {
+                width: 250px;
+            }
+
+            @media only screen and (max-width: $bp-small) {
+                width: 200px;
+            }
+        }
+
+        .subscribe__button {
+            font-size: 1.6rem;
+            height: 40px;
+            padding: 0 5rem;
+            margin-left: -1rem;
+            border-radius: 0;
+            border: none;   
+            background-color: var(--button-color);
+
+            @media only screen and (max-width: $bp-medium) {
+                padding: 0 1rem;
+            }
+
+            @media only screen and (max-width: $bp-small) {
+                padding: 0 1rem;
+            }
+        }
+    }
+}
+

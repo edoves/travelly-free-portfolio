@@ -1,0 +1,30 @@
+img.card-img-top {
+    position: relative;
+}
+
+.navbar-nav {
+    background-color:#fd4f32a6;
+    padding: 2rem;
+
+}
+
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-nav .active>.nav-link{
+    color: #fff;
+}
+
+.navbar-dark .navbar-toggler {
+    border: none;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image:  url("data:image/svg+xml,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+    font-size: 2.5rem;
+}
+
+@media only screen and (max-width: $bp-991-overide) {
+    .card-deck .card { 
+        flex: 1 40%;
+        margin-bottom: 2rem;
+    }
+}

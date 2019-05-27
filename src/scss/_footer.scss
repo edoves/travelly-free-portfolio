@@ -1,0 +1,35 @@
+.footer {
+    font-size: 1.5rem;
+    background-color: var(--bg-color-primary);
+    padding: 3rem 0;
+
+    .list-group {
+        justify-content: flex-end;
+        flex-direction: row;
+        font-weight: bold;
+        list-style: none;
+
+        @media only screen and (max-width: $bp-large) {
+            justify-content:center;
+        }
+
+        li:not(last-child) {
+            margin-left: 2rem;
+
+        }
+        a:link,
+        a:visited {
+            color:#000;
+            text-decoration:none;
+        }
+
+       
+    }
+
+    @media only screen and (max-width: $bp-large) {
+            p {
+                text-align: center;
+            }
+        }
+
+}

@@ -1,0 +1,33 @@
+{
+  "name": "dev_start",
+  "version": "1.0.0",
+  "description": "CSS Grid Development Work Flow",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp dev"
+  },
+  "author": "Brad Traversy",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "browser-sync": "^2.18.13",
+    "del": "^1.2.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-clean-css": "4.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.7.2",
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.3.1",
+    "owl.carousel": "^2.3.4"
+  }
+}
